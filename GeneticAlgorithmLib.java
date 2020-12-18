@@ -70,6 +70,7 @@ public class GeneticAlgorithmLib {
       } else if (popSize < ln) {
         population = copyOf(population, popSize);
       }
+      popSize = ln;
     }
     if (topK < 2) {
       topK = 2;

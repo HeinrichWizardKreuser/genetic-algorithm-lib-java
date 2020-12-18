@@ -122,6 +122,10 @@ public class Example1Unicorn {
         System.out.println("> " + bestWord);
         break;
       }
+      int i = 0;
+      for (String w : word2cost.keySet()) {
+        population[i++] = w;
+      }
     }
   }
 
